@@ -57,16 +57,16 @@ public class MainActivity extends AppCompatActivity {
 
     public static void logout(Activity activity) {
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
-        builder.setTitle("Logout");
-        builder.setMessage("Are you sure you want to logout ?");
-        builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+        builder.setTitle("Wyloguj");
+        builder.setMessage("Czy na pewno chcesz się wylogować ?");
+        builder.setPositiveButton("Tak", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 activity.finishAffinity();
                 System.exit(0);
             }
         });
-        builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+        builder.setNegativeButton("Nie", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int i) {
                 dialog.dismiss();
