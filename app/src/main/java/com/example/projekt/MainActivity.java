@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
     public static void logout(Activity activity) {
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
         builder.setTitle("Wyloguj");
-        builder.setMessage("Czy na pewno chcesz się wylogować?");
+        builder.setMessage("Czy na pewno chcesz się wylogować ?");
         builder.setPositiveButton("Tak", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
