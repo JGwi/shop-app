@@ -16,6 +16,7 @@ public class AboutUs extends AppCompatActivity {
 
         drawerLayout = findViewById(R.id.drawer_layout);
     }
+    //hgdsagdjasgdjhgdahdgajgs
 
     public void ClickMenu(View view){
         MainActivity.openDrawer(drawerLayout);
